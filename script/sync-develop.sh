@@ -41,19 +41,7 @@ repo_sync "android-devicetest-support" "develop"
 repo_sync "android-unittest-support" "develop"
 repo_sync "margarineknife" "develop"
 repo_sync "garnet" "develop"
-repo_sync "android-apptour" "develop"
 repo_sync "android-camera" "develop"
 repo_sync "light-saver" "develop"
 repo_sync "android-gms" "develop"
 repo_sync "android-firebase" "develop"
-
-# plugin
-repo_sync "gradle-plugin-utils" "develop"
-repo_sync "plugin-ci-support" "develop"
-repo_sync "plugin-android-dbgenerator" "develop"
-repo_sync "plugin-android-mipmap" "develop"
-repo_sync "plugin-firebase-remoteconfig" "develop"
-
-# jointcoding
-repo_sync "jointcoding-annotation" "develop"
-repo_sync "jointcoding-plugin" "develop"

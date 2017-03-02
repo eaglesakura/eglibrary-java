@@ -1,0 +1,81 @@
+[submodule "android-bluetooth"]
+	path = android-bluetooth
+	url = git@github.com:eaglesakura/android-bluetooth.git
+[submodule "android-camera"]
+	path = android-camera
+	url = git@github.com:eaglesakura/android-camera.git
+[submodule "android-canvas-graphics"]
+	path = android-canvas-graphics
+	url = git@github.com:eaglesakura/android-canvas-graphics.git
+[submodule "android-command-service"]
+	path = android-command-service
+	url = git@github.com:eaglesakura/android-command-service.git
+[submodule "android-devicetest-support"]
+	path = android-devicetest-support
+	url = git@github.com:eaglesakura/android-devicetest-support.git
+[submodule "android-egl"]
+	path = android-egl
+	url = git@github.com:eaglesakura/android-egl.git
+[submodule "android-firebase"]
+	path = android-firebase
+	url = git@github.com:eaglesakura/android-firebase.git
+[submodule "android-framework"]
+	path = android-framework
+	url = git@github.com:eaglesakura/android-framework.git
+[submodule "android-gms"]
+	path = android-gms
+	url = git@github.com:eaglesakura/android-gms.git
+[submodule "android-net"]
+	path = android-net
+	url = git@github.com:eaglesakura/android-net.git
+[submodule "android-simple-utils"]
+	path = android-simple-utils
+	url = git@github.com:eaglesakura/android-simple-utils.git
+[submodule "android-text-kvs"]
+	path = android-text-kvs
+	url = git@github.com:eaglesakura/android-text-kvs.git
+[submodule "android-thread"]
+	path = android-thread
+	url = git@github.com:eaglesakura/android-thread.git
+[submodule "android-unittest-support"]
+	path = android-unittest-support
+	url = git@github.com:eaglesakura/android-unittest-support.git
+[submodule "garnet"]
+	path = garnet
+	url = git@github.com:eaglesakura/garnet.git
+[submodule "geo-utils"]
+	path = geo-utils
+	url = git@github.com:eaglesakura/geo-utils.git
+[submodule "greendao-wrapper"]
+	path = greendao-wrapper
+	url = git@github.com:eaglesakura/greendao-wrapper.git
+[submodule "junit-support"]
+	path = junit-support
+	url = git@github.com:eaglesakura/junit-support.git
+[submodule "light-saver"]
+	path = light-saver
+	url = git@github.com:eaglesakura/light-saver.git
+[submodule "margarineknife"]
+	path = margarineknife
+	url = git@github.com:eaglesakura/margarineknife.git
+[submodule "onactivityresult-invoke"]
+	path = onactivityresult-invoke
+	url = git@github.com:eaglesakura/onactivityresult-invoke.git
+[submodule "rxandroid-support"]
+	path = rxandroid-support
+	url = git@github.com:eaglesakura/rxandroid-support.git
+[submodule "simple-logger"]
+	path = simple-logger
+	url = git@github.com:eaglesakura/simple-logger.git
+[submodule "simple-serialize"]
+	path = simple-serialize
+	url = git@github.com:eaglesakura/simple-serialize.git
+[submodule "simple-utils"]
+	path = simple-utils
+	url = git@github.com:eaglesakura/simple-utils.git
+[submodule "small-aquery"]
+	path = small-aquery
+	url = git@github.com:eaglesakura/small-aquery.git
+[submodule "json-wrapper"]
+	path = json-wrapper
+	url = git@github.com:eaglesakura/json-wrapper.git
