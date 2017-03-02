@@ -1,0 +1,92 @@
+// Local or maven
+if (!hasProperty("EGLIBRARY_COMPILE_LOCAL")) {
+    ext.EGLIBRARY_COMPILE_LOCAL = false
+}
+
+if (!hasProperty("EGLIBRARY_COMPILE_PROJECT_JAVA_GEO")) {
+    ext.EGLIBRARY_COMPILE_PROJECT_JAVA_GEO = true           // GEOHASH等を利用する
+}
+if (!hasProperty("EGLIBRARY_COMPILE_PROJECT_ANDROID")) {
+    ext.EGLIBRARY_COMPILE_PROJECT_ANDROID = true           // Android関連のプロジェクトを利用する
+}
+if (!hasProperty("EGLIBRARY_COMPILE_PROJECT_ANDROID_BLUETOOTH")) {
+    ext.EGLIBRARY_COMPILE_PROJECT_ANDROID = true           // Android関連のプロジェクトを利用する
+    ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_BLUETOOTH = true  // Bluetoothを利用する
+}
+if (!hasProperty("EGLIBRARY_COMPILE_PROJECT_ANDROID_EGL")) {
+    ext.EGLIBRARY_COMPILE_PROJECT_ANDROID = true           // Android関連のプロジェクトを利用する
+    ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_EGL = true        // OpenGLを利用する
+}
+if (!hasProperty("EGLIBRARY_COMPILE_PROJECT_ANDROID_CAMERA")) {
+    ext.EGLIBRARY_COMPILE_PROJECT_ANDROID = true           // Android関連のプロジェクトを利用する
+    ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_EGL = true        // OpenGLを利用する
+    ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_CAMERA = true        // カメラを利用する
+}
+if (!hasProperty("EGLIBRARY_COMPILE_PROJECT_ANDROID_CANVAS")) {
+    ext.EGLIBRARY_COMPILE_PROJECT_ANDROID = true           // Android関連のプロジェクトを利用する
+    ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_CANVAS = true     // Canvasでの自力レンダリングを利用する
+}
+if (!hasProperty("EGLIBRARY_COMPILE_PROJECT_ANDROID_FRAMEWORK")) {
+    ext.EGLIBRARY_COMPILE_PROJECT_ANDROID = true           // Android関連のプロジェクトを利用する
+    ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_FRAMEWORK = true  // アプリフレームワークを使用する
+}
+if (!hasProperty("EGLIBRARY_COMPILE_PROJECT_ANDROID_FRAMEWORK_PLAYSERVICE")) {
+    ext.EGLIBRARY_COMPILE_PROJECT_ANDROID = true           // Android関連のプロジェクトを利用する
+    ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_FRAMEWORK = true  // アプリフレームワークを使用する
+    ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_FRAMEWORK_PLAYSERVICE = true; // Google Play Service
+}
+
+if (EGLIBRARY_COMPILE_LOCAL) {
+    // Java
+    include ':eglibrary:simple-logger'
+    include ':eglibrary:simple-utils'
+    include ':eglibrary:simple-serialize'
+    include ':eglibrary:json-wrapper'
+    include ':eglibrary:junit-support'
+
+    // Java Geo
+    if (EGLIBRARY_COMPILE_PROJECT_JAVA_GEO) {
+        include ':eglibrary:geo-utils'
+    }
+
+    // Android
+    if (EGLIBRARY_COMPILE_PROJECT_ANDROID) {
+        include ':eglibrary:android-simple-utils'
+        include ':eglibrary:android-unittest-support'
+        include ':eglibrary:android-devicetest-support'
+    }
+
+    // Android
+    if (EGLIBRARY_COMPILE_PROJECT_ANDROID_BLUETOOTH) {
+        include ':eglibrary:android-bluetooth'
+    }
+    if (EGLIBRARY_COMPILE_PROJECT_ANDROID_EGL) {
+        include ':eglibrary:android-egl'
+    }
+    if (EGLIBRARY_COMPILE_PROJECT_ANDROID_CAMERA) {
+        include ':eglibrary:android-egl'
+        include ':eglibrary:android-camera'
+    }
+    if (EGLIBRARY_COMPILE_PROJECT_ANDROID_CANVAS) {
+        include ':eglibrary:android-canvas-graphics'
+    }
+    if (EGLIBRARY_COMPILE_PROJECT_ANDROID_FRAMEWORK) {
+        include ':eglibrary:android-text-kvs'
+        include ':eglibrary:android-thread'
+        include ':eglibrary:android-command-service'
+        include ':eglibrary:android-net'
+        include ':eglibrary:android-framework'
+        include ':eglibrary:margarineknife'
+        include ':eglibrary:garnet'
+        include ':eglibrary:greendao-wrapper'
+        include ':eglibrary:onactivityresult-invoke'
+        include ':eglibrary:small-aquery'
+        include ':eglibrary:rxandroid-support'
+        include ':eglibrary:light-saver'
+    }
+    if (EGLIBRARY_COMPILE_PROJECT_ANDROID_FRAMEWORK_PLAYSERVICE) {
+        include ':eglibrary:android-gms'
+        include ':eglibrary:android-firebase'
+    }
+
+}
