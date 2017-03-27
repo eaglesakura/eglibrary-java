@@ -13,18 +13,9 @@ if (!hasProperty("EGLIBRARY_COMPILE_PROJECT_ANDROID_BLUETOOTH")) {
     ext.EGLIBRARY_COMPILE_PROJECT_ANDROID = true           // Android関連のプロジェクトを利用する
     ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_BLUETOOTH = true  // Bluetoothを利用する
 }
-if (!hasProperty("EGLIBRARY_COMPILE_PROJECT_ANDROID_EGL")) {
-    ext.EGLIBRARY_COMPILE_PROJECT_ANDROID = true           // Android関連のプロジェクトを利用する
-    ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_EGL = true        // OpenGLを利用する
-}
 if (!hasProperty("EGLIBRARY_COMPILE_PROJECT_ANDROID_CAMERA")) {
     ext.EGLIBRARY_COMPILE_PROJECT_ANDROID = true           // Android関連のプロジェクトを利用する
-    ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_EGL = true        // OpenGLを利用する
     ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_CAMERA = true        // カメラを利用する
-}
-if (!hasProperty("EGLIBRARY_COMPILE_PROJECT_ANDROID_CANVAS")) {
-    ext.EGLIBRARY_COMPILE_PROJECT_ANDROID = true           // Android関連のプロジェクトを利用する
-    ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_CANVAS = true     // Canvasでの自力レンダリングを利用する
 }
 if (!hasProperty("EGLIBRARY_COMPILE_PROJECT_ANDROID_FRAMEWORK")) {
     ext.EGLIBRARY_COMPILE_PROJECT_ANDROID = true           // Android関連のプロジェクトを利用する
@@ -60,19 +51,11 @@ if (EGLIBRARY_COMPILE_LOCAL) {
     if (EGLIBRARY_COMPILE_PROJECT_ANDROID_BLUETOOTH) {
         include ':eglibrary:android-bluetooth'
     }
-    if (EGLIBRARY_COMPILE_PROJECT_ANDROID_EGL) {
-        include ':eglibrary:android-egl'
-    }
     if (EGLIBRARY_COMPILE_PROJECT_ANDROID_CAMERA) {
-        include ':eglibrary:android-egl'
         include ':eglibrary:android-camera'
-    }
-    if (EGLIBRARY_COMPILE_PROJECT_ANDROID_CANVAS) {
-        include ':eglibrary:android-canvas-graphics'
     }
     if (EGLIBRARY_COMPILE_PROJECT_ANDROID_FRAMEWORK) {
         include ':eglibrary:android-text-kvs'
-        include ':eglibrary:android-thread'
         include ':eglibrary:android-command-service'
         include ':eglibrary:android-net'
         include ':eglibrary:android-framework'

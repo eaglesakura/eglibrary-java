@@ -4,18 +4,12 @@
 [submodule "android-camera"]
 	path = android-camera
 	url = git@github.com:eaglesakura/android-camera.git
-[submodule "android-canvas-graphics"]
-	path = android-canvas-graphics
-	url = git@github.com:eaglesakura/android-canvas-graphics.git
 [submodule "android-command-service"]
 	path = android-command-service
 	url = git@github.com:eaglesakura/android-command-service.git
 [submodule "android-devicetest-support"]
 	path = android-devicetest-support
 	url = git@github.com:eaglesakura/android-devicetest-support.git
-[submodule "android-egl"]
-	path = android-egl
-	url = git@github.com:eaglesakura/android-egl.git
 [submodule "android-firebase"]
 	path = android-firebase
 	url = git@github.com:eaglesakura/android-firebase.git
@@ -34,9 +28,6 @@
 [submodule "android-text-kvs"]
 	path = android-text-kvs
 	url = git@github.com:eaglesakura/android-text-kvs.git
-[submodule "android-thread"]
-	path = android-thread
-	url = git@github.com:eaglesakura/android-thread.git
 [submodule "android-unittest-support"]
 	path = android-unittest-support
 	url = git@github.com:eaglesakura/android-unittest-support.git
