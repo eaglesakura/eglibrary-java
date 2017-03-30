@@ -7,6 +7,7 @@ repo_sync() {
     echo "########################################"
     cd $1
 
+    git config core.firelmode false
     git clean -f
     git fetch
     git branch -d $2

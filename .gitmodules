@@ -61,9 +61,6 @@
 [submodule "java-commons"]
 	path = java-commons
 	url = git@github.com:eaglesakura/java-commons.git
-[submodule "publd-serializer"]
-	path = publd-serializer
-	url = git@github.com:eaglesakura/publd-serializer.git
 [submodule "alternet"]
 	path = alternet
 	url = git@github.com:eaglesakura/alternet.git
