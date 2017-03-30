@@ -13,18 +13,9 @@
 [submodule "android-firebase"]
 	path = android-firebase
 	url = git@github.com:eaglesakura/android-firebase.git
-[submodule "android-framework"]
-	path = android-framework
-	url = git@github.com:eaglesakura/android-framework.git
 [submodule "android-gms"]
 	path = android-gms
 	url = git@github.com:eaglesakura/android-gms.git
-[submodule "android-net"]
-	path = android-net
-	url = git@github.com:eaglesakura/android-net.git
-[submodule "android-simple-utils"]
-	path = android-simple-utils
-	url = git@github.com:eaglesakura/android-simple-utils.git
 [submodule "android-text-kvs"]
 	path = android-text-kvs
 	url = git@github.com:eaglesakura/android-text-kvs.git
@@ -52,21 +43,18 @@
 [submodule "onactivityresult-invoke"]
 	path = onactivityresult-invoke
 	url = git@github.com:eaglesakura/onactivityresult-invoke.git
-[submodule "rxandroid-support"]
-	path = rxandroid-support
-	url = git@github.com:eaglesakura/rxandroid-support.git
 [submodule "simple-logger"]
 	path = simple-logger
 	url = git@github.com:eaglesakura/simple-logger.git
-[submodule "simple-serialize"]
-	path = simple-serialize
-	url = git@github.com:eaglesakura/simple-serialize.git
-[submodule "simple-utils"]
-	path = simple-utils
-	url = git@github.com:eaglesakura/simple-utils.git
 [submodule "small-aquery"]
 	path = small-aquery
 	url = git@github.com:eaglesakura/small-aquery.git
 [submodule "json-wrapper"]
 	path = json-wrapper
 	url = git@github.com:eaglesakura/json-wrapper.git
+[submodule "publd-serializer"]
+	path = publd-serializer
+	url = git@github.com:eaglesakura/publd-serializer.git
+[submodule "android-commons"]
+	path = android-commons
+	url = git@github.com:eaglesakura/android-commons.git

@@ -6,6 +6,9 @@ if (!hasProperty("EGLIBRARY_COMPILE_LOCAL")) {
 if (!hasProperty("EGLIBRARY_COMPILE_PROJECT_JAVA_GEO")) {
     ext.EGLIBRARY_COMPILE_PROJECT_JAVA_GEO = true           // GEOHASH等を利用する
 }
+if (!hasProperty("EGLIBRARY_COMPILE_PROJECT_JAVA_PUBLD")) {
+    ext.EGLIBRARY_COMPILE_PROJECT_JAVA_PUBLD = true           // publd-serializerを利用する
+}
 if (!hasProperty("EGLIBRARY_COMPILE_PROJECT_ANDROID")) {
     ext.EGLIBRARY_COMPILE_PROJECT_ANDROID = true           // Android関連のプロジェクトを利用する
 }
@@ -30,10 +33,14 @@ if (!hasProperty("EGLIBRARY_COMPILE_PROJECT_ANDROID_FRAMEWORK_PLAYSERVICE")) {
 if (EGLIBRARY_COMPILE_LOCAL) {
     // Java
     include ':eglibrary:simple-logger'
-    include ':eglibrary:simple-utils'
-    include ':eglibrary:simple-serialize'
+    include ':eglibrary:java-commons'
     include ':eglibrary:json-wrapper'
     include ':eglibrary:junit-support'
+
+    // Publd serializer
+    if (EGLIBRARY_COMPILE_PROJECT_JAVA_PUBLD) {
+        include ':eglibrary:publd-serializer'
+    }
 
     // Java Geo
     if (EGLIBRARY_COMPILE_PROJECT_JAVA_GEO) {
@@ -42,7 +49,7 @@ if (EGLIBRARY_COMPILE_LOCAL) {
 
     // Android
     if (EGLIBRARY_COMPILE_PROJECT_ANDROID) {
-        include ':eglibrary:android-simple-utils'
+        include ':eglibrary:android-commons'
         include ':eglibrary:android-unittest-support'
         include ':eglibrary:android-devicetest-support'
     }
@@ -57,15 +64,16 @@ if (EGLIBRARY_COMPILE_LOCAL) {
     if (EGLIBRARY_COMPILE_PROJECT_ANDROID_FRAMEWORK) {
         include ':eglibrary:android-text-kvs'
         include ':eglibrary:android-command-service'
-        include ':eglibrary:android-net'
-        include ':eglibrary:android-framework'
+        include ':eglibrary:alternet'
         include ':eglibrary:margarineknife'
         include ':eglibrary:garnet'
         include ':eglibrary:greendao-wrapper'
         include ':eglibrary:onactivityresult-invoke'
         include ':eglibrary:small-aquery'
-        include ':eglibrary:rxandroid-support'
+        include ':eglibrary:cerberus'
         include ':eglibrary:light-saver'
+
+        include ':eglibrary:sloth-framework'
     }
     if (EGLIBRARY_COMPILE_PROJECT_ANDROID_FRAMEWORK_PLAYSERVICE) {
         include ':eglibrary:android-gms'
