@@ -58,3 +58,18 @@
 [submodule "android-commons"]
 	path = android-commons
 	url = git@github.com:eaglesakura/android-commons.git
+[submodule "java-commons"]
+	path = java-commons
+	url = git@github.com:eaglesakura/java-commons.git
+[submodule "publd-serializer"]
+	path = publd-serializer
+	url = git@github.com:eaglesakura/publd-serializer.git
+[submodule "alternet"]
+	path = alternet
+	url = git@github.com:eaglesakura/alternet.git
+[submodule "cerberus"]
+	path = cerberus
+	url = git@github.com:eaglesakura/cerberus.git
+[submodule "sloth-framework"]
+	path = sloth-framework
+	url = git@github.com:eaglesakura/sloth-framework.git
