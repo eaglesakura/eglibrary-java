@@ -22,51 +22,51 @@
 [submodule "android-unittest-support"]
 	path = android-unittest-support
 	url = git@github.com:eaglesakura/android-unittest-support.git
-[submodule "garnet"]
-	path = garnet
-	url = git@github.com:eaglesakura/garnet.git
-[submodule "greendao-wrapper"]
-	path = greendao-wrapper
-	url = git@github.com:eaglesakura/greendao-wrapper.git
-[submodule "junit-support"]
-	path = junit-support
-	url = git@github.com:eaglesakura/junit-support.git
-[submodule "light-saver"]
-	path = light-saver
-	url = git@github.com:eaglesakura/light-saver.git
-[submodule "margarineknife"]
-	path = margarineknife
-	url = git@github.com:eaglesakura/margarineknife.git
-[submodule "onactivityresult-invoke"]
-	path = onactivityresult-invoke
-	url = git@github.com:eaglesakura/onactivityresult-invoke.git
-[submodule "simple-logger"]
-	path = simple-logger
-	url = git@github.com:eaglesakura/simple-logger.git
-[submodule "small-aquery"]
-	path = small-aquery
-	url = git@github.com:eaglesakura/small-aquery.git
-[submodule "json-wrapper"]
-	path = json-wrapper
-	url = git@github.com:eaglesakura/json-wrapper.git
-[submodule "publd-serializer"]
-	path = publd-serializer
-	url = git@github.com:eaglesakura/publd-serializer.git
 [submodule "android-commons"]
 	path = android-commons
 	url = git@github.com:eaglesakura/android-commons.git
-[submodule "java-commons"]
-	path = java-commons
-	url = git@github.com:eaglesakura/java-commons.git
 [submodule "alternet"]
 	path = alternet
 	url = git@github.com:eaglesakura/alternet.git
 [submodule "cerberus"]
 	path = cerberus
 	url = git@github.com:eaglesakura/cerberus.git
-[submodule "sloth-framework"]
-	path = sloth-framework
-	url = git@github.com:eaglesakura/sloth-framework.git
 [submodule "geo-utils"]
 	path = geo-utils
 	url = git@github.com:eaglesakura/geo-utils.git
+[submodule "json-wrapper"]
+	path = json-wrapper
+	url = git@github.com:eaglesakura/json-wrapper.git
+[submodule "simple-logger"]
+	path = simple-logger
+	url = git@github.com:eaglesakura/simple-logger.git
+[submodule "publd-serializer"]
+	path = publd-serializer
+	url = git@github.com:eaglesakura/publd-serializer.git
+[submodule "java-commons"]
+	path = java-commons
+	url = git@github.com:eaglesakura/java-commons.git
+[submodule "junit-support"]
+	path = junit-support
+	url = git@github.com:eaglesakura/junit-support.git
+[submodule "sloth-framework"]
+	path = sloth-framework
+	url = git@github.com:eaglesakura/sloth-framework.git
+[submodule "greendao-wrapper"]
+	path = greendao-wrapper
+	url = git@github.com:eaglesakura/greendao-wrapper.git
+[submodule "onactivityresult-invoke"]
+	path = onactivityresult-invoke
+	url = git@github.com:eaglesakura/onactivityresult-invoke.git
+[submodule "small-aquery"]
+	path = small-aquery
+	url = git@github.com:eaglesakura/small-aquery.git
+[submodule "margarineknife"]
+	path = margarineknife
+	url = git@github.com:eaglesakura/margarineknife.git
+[submodule "garnet"]
+	path = garnet
+	url = git@github.com:eaglesakura/garnet.git
+[submodule "light-saver"]
+	path = light-saver
+	url = git@github.com:eaglesakura/light-saver.git
