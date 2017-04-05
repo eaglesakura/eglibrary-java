@@ -25,9 +25,6 @@
 [submodule "garnet"]
 	path = garnet
 	url = git@github.com:eaglesakura/garnet.git
-[submodule "geo-utils"]
-	path = geo-utils
-	url = git@github.com:eaglesakura/geo-utils.git
 [submodule "greendao-wrapper"]
 	path = greendao-wrapper
 	url = git@github.com:eaglesakura/greendao-wrapper.git
@@ -70,3 +67,6 @@
 [submodule "sloth-framework"]
 	path = sloth-framework
 	url = git@github.com:eaglesakura/sloth-framework.git
+[submodule "geo-utils"]
+	path = geo-utils
+	url = git@github.com:eaglesakura/geo-utils.git
