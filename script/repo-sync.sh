@@ -7,13 +7,13 @@ repo_sync() {
     echo "########################################"
     cd $1
 
-    git config core.firelmode false
+    git config core.filemode false
     git clean -f
     git fetch
     git branch -d $2
     git checkout -f $2
     git pull origin $2
-    git branch
+    git branch -a
     cd ..
 }
 
