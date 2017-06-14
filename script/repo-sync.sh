@@ -23,15 +23,15 @@ repo_sync "android-camera"              "v1.3.x"        # updated version
 repo_sync "android-command-service"     "v1.5.x"        # updated version
 repo_sync "android-commons"             "v2.3.x"        # updated version
 repo_sync "android-devicetest-support"  "v2.3.x"        # updated version
-repo_sync "android-firebase"            "v1.10.3.x"     # updated version
-repo_sync "android-gms"                 "v1.10.3.x"     # updated version
+repo_sync "android-firebase"            "v2.0.x"        # updated version
+repo_sync "android-gms"                 "v2.0.x"        # updated version
 repo_sync "android-text-kvs"            "v2.4.x"        # updated version
 repo_sync "android-unittest-support"    "v1.6.x"        # updated version
-repo_sync "cerberus"                    "v2.5.x"        # updated version
+repo_sync "cerberus"                    "v3.0.x"        # updated version
 repo_sync "garnet"                      "v1.2.x"        # updated version
 repo_sync "geo-utils"                   "v1.2.x"        # updated version
 repo_sync "greendao-wrapper"            "v2.4.x"        # updated version
-repo_sync "java-commons"                "v2.1.x"        # updated version
+repo_sync "java-commons"                "v2.2.x"        # updated version
 repo_sync "json-wrapper"                "v1.2.x"        # updated version
 repo_sync "junit-support"               "v1.2.x"        # updated version
 repo_sync "light-saver"                 "v1.4.x"        # updated version
@@ -39,5 +39,5 @@ repo_sync "margarineknife"              "v1.5.x"        # updated version
 repo_sync "onactivityresult-invoke"     "v1.3.x"        # updated version
 repo_sync "publd-serializer"            "v2.1.x"        # updated version
 repo_sync "simple-logger"               "v2.1.x"        # updated version
-repo_sync "sloth-framework"             "v3.25.2.x"     # updated version
+repo_sync "sloth-framework"             "v4.0.x"        # updated version
 repo_sync "small-aquery"                "v1.3.x"        # updated version
